@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar"
 import Main from "./components/Main"
 import "./styles.css"
 
-function App() {
+export default function App() {
     return (
         <div>
             <Navbar/>
@@ -10,5 +10,3 @@ function App() {
         </div>
     )
 }
-
-export default App
