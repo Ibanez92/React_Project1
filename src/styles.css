@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #282C35;
 }
 
 /* Navbar Component CSS */
@@ -19,7 +20,7 @@ body {
 
 .nav > h3 {
     margin-right: auto;
-    color:rgb(48, 167, 227);
+    color:#61dafb;
     font-weight: 700;
     font-size: 22px;
 }
@@ -37,15 +38,31 @@ body {
 /* Main Component CSS */
 
 .main {
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
-    padding: 30px 50px;
-    background-color: #282C35;
+    padding: 57px 27px; 
     color: white;
+    background-image: url(./Images/react-icon-large.png);
+    background-position: right 75%;
+    background-repeat: no-repeat;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
 }
 
 
-
-.main-list {
+.main--facts > li::marker {
+    font-size: 1.5rem;
+    color: #61dafb
 }
