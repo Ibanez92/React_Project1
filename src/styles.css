@@ -7,6 +7,8 @@ body {
     font-family: sans-serif;
 }
 
+/* Navbar Component CSS */
+
 .nav {
     display: flex;
     align-items: center;
@@ -30,4 +32,20 @@ body {
 .nav-img {
     height: 80px;
     margin-right: 7px;
+}
+
+/* Main Component CSS */
+
+.main {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 30px 50px;
+    background-color: #282C35;
+}
+
+
+
+.main-list {
+    list-style: circle;
 }
