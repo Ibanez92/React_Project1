@@ -40,7 +40,7 @@ body {
 .main {
     padding: 57px 27px; 
     color: white;
-    background-image: url(./Images/react-icon-large.png);
+    background-image: url(/images/react-icon-large.png);
     background-position: right 75%;
     background-repeat: no-repeat;
 }
